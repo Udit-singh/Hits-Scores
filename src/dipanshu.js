@@ -1,8 +1,7 @@
 import React from "react";
 import img1 from "./images/d2CLmo.jpg";
-import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Button } from "react-bootstrap"
+import 'bootstrap/dist/css/bootstrap.css';
 const Appp= props => {
     return( 
         <div className='Appp text-center'>
@@ -15,7 +14,7 @@ const Appp= props => {
                dipanshu new project is going great but he is facing some of issues.
                i have full faith in him.
            </p>
-           <Button variant="primary">Check Out</Button>{' '}
+           <Button color="blue">Check Out</Button>{' '}
            </div> 
            </div>
     );

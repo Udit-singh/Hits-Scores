@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
-import { Button } from './Button';
+import { Button } from "react-bootstrap"
 import './HeroSection.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function HeroSection() {
   return (
@@ -10,12 +11,8 @@ function HeroSection() {
       <p>ADVENTURE AWAITS</p>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--out'
-          buttonSize='btn--lar'
-        >
-          Rankings
+        <Button variant="dark">
+        Rankings
         </Button>
         <Button
           className='btns'
