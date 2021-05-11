@@ -7,7 +7,7 @@ import Score from './pages/scores';
 import News from './pages/news';
 import Updates from './pages/updates';
 import HallFame from './pages/hallFame';
-import Cards from './components/Cards/cards';
+import Appp from './dipanshu';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/scores' component={Score} />
-        <Route path='/news' component={News} />
+        <Route path='/news' component={Appp} />
         <Route path='/updates' component={Updates} />
         <Route path='/HallFame' component={HallFame} />
       </Switch>
