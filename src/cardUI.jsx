@@ -2,21 +2,20 @@ import React from "react";
 import img1 from "./images/d2CLmo.jpg";
 import { Button } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.css';
-const Appp= props => {
+const Card= props => {
     return( 
-        <div className='Appp text-center'>
+        <div className='Card text-center'>
             <div className='overflow'>
                 </div>
-       <div className="Appp-body text-dark">
+       <div className="Card-body text-dark">
        <img src={img1} alt='cricket' width="300" height="300"/>
-           <h4 className="Appp-title">Appp Title </h4>
+           <h4 className="Card-title">Card Title </h4>
            <p className="App-text text-secondary">
-               dipanshu new project is going great but he is facing some of issues.
-               i have full faith in him.
+           Some Senior Indian Guys Don't Like Being Restricted" But We Felt Safe In IPL Bubble: Mumbai Indians' Fielding Coach
            </p>
            <Button color="blue">Check Out</Button>{' '}
            </div> 
            </div>
     );
 };
-export default Appp; 
+export default Card; 
