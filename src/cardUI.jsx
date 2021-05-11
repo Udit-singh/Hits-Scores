@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "./images/d2CLmo.jpg";
 import { Button } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.css';
-const Card= props => {
+const Card1= props => {
     return( 
         <div className='Card text-center'>
             <div className='overflow'>
@@ -18,4 +18,4 @@ const Card= props => {
            </div>
     );
 };
-export default Card; 
+export default Card1; 
