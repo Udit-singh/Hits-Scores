@@ -7,20 +7,20 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='https://media.istockphoto.com/videos/cricket-batsman-on-the-stadium-video-id677740658' autoPlay loop muted />
-      <p >ADVENTURE AWAITS</p>
-      <p >What are you waiting for?</p>
+      <p>ADVENTURE AWAITS</p>
+      <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
           className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+          buttonStyle='btn--out'
+          buttonSize='btn--lar'
         >
           Rankings
         </Button>
         <Button
           className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
+          buttonStyle='btn--pri'
+          buttonSize='btn--lar'
           onClick={console.log('hey')}
         >
           Live Scores <i className='far fa-play-circle' />

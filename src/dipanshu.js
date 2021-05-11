@@ -1,5 +1,7 @@
 import React from "react";
 import img1 from "./images/d2CLmo.jpg";
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Appp= props => {
     return( 
@@ -13,7 +15,7 @@ const Appp= props => {
                dipanshu new project is going great but he is facing some of issues.
                i have full faith in him.
            </p>
-           <a class="btn btn-primary" href="#" role="button">Link</a>
+           <Button variant="primary">Check Out</Button>{' '}
            </div> 
            </div>
     );
