@@ -1,17 +1,8 @@
 import React from 'react';
-
+import Card from '../components/Cads/Cards';
 const News = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Latest News</h1>
-    </div>
+    <Card />
   );
 };
 

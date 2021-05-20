@@ -51,7 +51,7 @@
   opacity: 0;
   color: #fff;
   background-color: #fff;
-  transition-duration: 1s ease;
+  transition-duration: .1s ease;
 }
 
 .slide.active {
@@ -61,14 +61,106 @@
   transition-duration: 1s;
   transform: scale(1.08);
 }
-/* .home,
-.services,
-.products,
-.sign-up {
+.image {
+  position: relative;
+  width: 300px;
+  height: 270px;
+}
+
+.image1 {
+  position: relative;
+  width: 600px;
+  height: 350px;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
-  height: 90vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
-} */
+  opacity: 0;
+  transition: opacity 0.25s;
+}
 
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background: #147df5af;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1em;
+  margin-top: 0.25em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -7,7 +7,6 @@ import Score from './pages/scores';
 import News from './pages/news';
 import Updates from './pages/updates';
 import HallFame from './pages/hallFame';
-import CardsNews from './components/Cards/cardsNews';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/scores' component={Score} />
-        <Route path='/news' component={CardsNews} />
+        <Route path='/news' component={News} />
         <Route path='/updates' component={Updates} />
         <Route path='/HallFame' component={HallFame} />
       </Switch>
