@@ -11,7 +11,7 @@ return(
             <h4 className="card-title">{props.title}</h4>
             <p className="card-text text-secondary" font="Cambria">{props.text}
             </p>
-            <a href={props.link} className="btn btn-primary">Read More</a>
+            <a href={props.link} class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Read more</a>
         </div>
     </div>
 );

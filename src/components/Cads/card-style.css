@@ -1,5 +1,5 @@
 .temp{
-    background-image: url('https://wallpaperaccess.com/full/340434.png');
+    background-color:#252525;
     background-repeat: no repeat;
     background-size: cover;
     background-position: center;
@@ -7,13 +7,14 @@
 .card
 {
     width: 20rem;
+    background-color: #FFFF;
 }
 .card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+    box-shadow: 2px 3px 5px 1px rgba(255,255,255,0.3)!important;
 }
 .card-body
 {
-    padding: 3rem 0 !important;
+    padding: 2rem 0 !important;
 }
 .card-text
 {
@@ -22,11 +23,14 @@
 }
 .row
 {
-    padding-top: 5rem;
+    padding-top: rem;
+    padding-bottom: 2rem;
 }
 .col
 {
     padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .overflow
 {
