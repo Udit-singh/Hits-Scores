@@ -11,9 +11,13 @@ return(
             <h4 className="card-title">{props.title}</h4>
             <p className="card-text text-secondary" font="Cambria">{props.text}
             </p>
-            <a href={props.link} class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Read more</a>
+            <div class="btn-group dropright">
+            <a href={props.link} class="btn btn-outline dropdown-toggle">Read more</a>
+            </div>
+
         </div>
     </div>
 );
+
 }
 export default Card;

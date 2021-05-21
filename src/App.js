@@ -7,6 +7,7 @@ import Score from './pages/scores';
 import News from './pages/news';
 import Updates from './pages/updates';
 import HallFame from './pages/hallFame';
+import Slider from './pages/slider';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/updates' component={Updates} />
         <Route path='/HallFame' component={HallFame} />
       </Switch>
+      <Slider />
     </Router>
     
   );
