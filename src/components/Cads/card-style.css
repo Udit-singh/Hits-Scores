@@ -23,12 +23,12 @@
 }
 .row
 {
-    padding-top: rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .col
 {
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
