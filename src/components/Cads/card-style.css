@@ -1,19 +1,16 @@
 .temp{
-    background-color:#FFFF;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#e5e5e5;
 }
 .card
 {
     width: 20rem;
     background-color: #FFFF;
     border-radius: 10rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .card:hover{
-    box-shadow: 2px 3px 5px 1px rgba(255,255,255,0.3)!important;
+    box-shadow:0  5px 10px rgba(154,160,185,0.05),0 15px 40px rgba(166,173,201,0.2) !important;
 }
 .card-body
 {
@@ -33,8 +30,7 @@
 }
 .col
 {
-    padding-left: 4rem;
-    padding-top: 2rem;
+    padding-left: 2rem;
     padding-bottom: 2rem;
 }
 .overflow
@@ -58,28 +54,7 @@
 {
     box-shadow: none;
 }
-.btn-outline {
-    background-color:#3664F4;
-    letter-spacing: 0.05em;
-    size: 2rem;
-  }
-  
-  .btn-outline {
-    color: #3664F4;
-    background-color:#ffffff;
-    border-radius: 5rem;
-    border-color:#3664F4 ;
-  }
-  
-  .btn-outline:hover,
-  .btn-outline:active,
-  .btn-outline:focus,
-  .btn-outline.active {
-    background:#3664F4 ;
-    color: #ffffff;
-  }
-  
-.p
+.outline-primary
 {
 font: Courier New;
 }
