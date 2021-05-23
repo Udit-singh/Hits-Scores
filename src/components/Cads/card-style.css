@@ -83,3 +83,13 @@
 {
 font: Courier New;
 }
+
+.btn-responsive {
+    width: 10rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .btn-responsive {
+        width: 8rem;
+    }
+  }
