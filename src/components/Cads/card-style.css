@@ -57,6 +57,7 @@
 .outline-primary
 {
 font: Courier New;
+border-radius: 5rem;
 }
 
 .btn-responsive {
