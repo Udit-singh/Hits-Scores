@@ -9,8 +9,9 @@
     width: 20rem;
     background-color: #FFFF;
     border-radius: 10rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .card:hover{
     box-shadow: 2px 3px 5px 1px rgba(255,255,255,0.3)!important;
 }
@@ -32,7 +33,7 @@
 }
 .col
 {
-    padding-left: 2rem;
+    padding-left: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -60,6 +61,7 @@
 .btn-outline {
     background-color:#3664F4;
     letter-spacing: 0.05em;
+    size: 2rem;
   }
   
   .btn-outline {
