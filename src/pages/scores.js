@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import '../Api/api';
 import MyCard from "../components/Scores/MyCard";
 import { getMatches } from "../Api/api";
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 
 const Score = () => {
   const [matches, setMatches] = useState([]);

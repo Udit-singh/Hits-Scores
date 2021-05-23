@@ -164,3 +164,15 @@
     transform: rotate(360deg);
   }
 }
+
+.bg1 {
+  padding-top: 2rem;
+  background: rgb(0, 0, 0);
+}
+
+.textFotter{
+  color: white;
+}
+.textNames{
+  color: rgb(0, 134, 243);
+}
