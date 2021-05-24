@@ -7,7 +7,7 @@ const FooterPage = () => {
     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         
-            <h5 className="textFotter">Cricket 1.0</h5>
+            <h5 className="textFotter">Hits&Scores</h5>
             <li className="list-unstyled">
                 <a className="link" href="http://localhost:3000/">Back To Top</a>
               </li>
