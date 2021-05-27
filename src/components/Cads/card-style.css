@@ -7,7 +7,7 @@
     background-color: #FFFF;
     border-radius: 10rem;
 
-}
+} 
 
 .card:hover{
     box-shadow:5px 10px 20px 1px rgba(0,0,0,0.253)!important;
@@ -23,7 +23,6 @@
 }
 .row
 {
-    
     padding-top: 2rem;
     padding-bottom: 2rem;
 
